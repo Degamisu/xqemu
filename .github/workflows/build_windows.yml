@@ -3,7 +3,6 @@ name: Build (Windows)
 on:
   push
   pull_request
-  workflow_dispatch:  # ← This adds the button in the GitHub Actions tab
 
 jobs:
   Windows:
